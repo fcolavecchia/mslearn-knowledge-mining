@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Set values for your Search service
-url="https://fla-ai-search-service.search.windows.net"
-admin_key="vgOhvwWlAGhVbfulGplnWTnqB40cG4YQnGSCATO5x6AzSeCk7OCV"
+url=YOUR_SEARCH_URL
+admin_key=YOUR_ADMIN_KEY
 
 echo "-----"
 echo "Updating the skillset..."

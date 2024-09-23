@@ -6,7 +6,7 @@
     "type": "azureblob",
     "subtype": null,
     "credentials": {
-      "connectionString": "DefaultEndpointsProtocol=https;AccountName=flastorage102;AccountKey=..."
+      "connectionString": "YOUR_CONNECTION_STRING"
     },
     "container": {
       "name": "margies",

@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Set values for your Search service
-url="https://ai102srch26039.search.windows.net"
-admin_key="rpGYJADgsgBBQBZKzilWauqb03Gzr1gF79THoNQRtYAzSeBFhzi4"
+url=YOUR_SEARCH_URL
+admin_key=YOUR_ADMIN_KEY
 
 # echo "-----"
 # echo "Creating the data source..."

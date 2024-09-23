@@ -4,7 +4,7 @@
     "cognitiveServices": {
         "@odata.type": "#Microsoft.Azure.Search.CognitiveServicesByKey",
         "description": "Azure AI services",
-        "key": "387a8da32fb44fee81c6e61886f8419b"
+        "key": "YOUR_AZURE_AI_SERVICE_KEY"
       },
     "skills": [
       {
