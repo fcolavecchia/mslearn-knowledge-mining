@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Set values for your storage account
-subscription_id="9f15d358-fb6e-4797-90dd-8e4550768d01"
+subscription_id="YOUR_SUSCRIPTION_ID"
 azure_storage_account="flastorage102"
-azure_storage_key="rs9ni3XfiKEQ+EAtDOpcXlvjlKsST87ZOXUTj6eskFlozEFhEFMP+xHzvptozHjZ1Gnp4G9PCgLd+AStukyDJQ=="
+azure_storage_key="YOUR_AZURE_STORAGE_KEY"
 
 echo "Creating container..."
 az storage container create --account-name "$azure_storage_account" --subscription "$subscription_id" --name margies --auth-mode key --account-key "$azure_storage_key" --output none
