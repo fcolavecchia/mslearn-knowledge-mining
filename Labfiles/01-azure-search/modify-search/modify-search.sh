@@ -1,13 +1,8 @@
 #!/bin/bash
 
 # Set values for your Search service
-<<<<<<< HEAD
 url=YOUR_SEARCH_URL
 admin_key=YOUR_ADMIN_KEY
-=======
-url="https://fla-ai-search-service.search.windows.net"
-admin_key="YOUR_ADMIN_KEY"
->>>>>>> ee5b848 (Removed keys)
 
 echo "-----"
 echo "Updating the skillset..."

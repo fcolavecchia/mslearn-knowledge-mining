@@ -2,4 +2,6 @@ bin
 obj
 .env
 */*.env
+*secrets.txt
+*/*secrets.txt
 

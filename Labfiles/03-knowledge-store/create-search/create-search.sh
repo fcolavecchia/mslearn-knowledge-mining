@@ -1,15 +1,14 @@
 #!/bin/bash
 
 # Set values for your Search service
-url=YOUR_SEARCH_URL
-admin_key=YOUR_ADMIN_KEY
+source secrets.txt
 
-# echo "-----"
-# echo "Creating the data source..."
-# curl -X POST "$url/datasources?api-version=2020-06-30" \
-#      -H "Content-Type: application/json" \
-#      -H "api-key: $admin_key" \
-#      -d @data_source.json
+echo "-----"
+echo "Creating the data source..."
+curl -X POST "$url/datasources?api-version=2020-06-30" \
+     -H "Content-Type: application/json" \
+     -H "api-key: $admin_key" \
+     -d @data_source.json
 
 echo "-----"
 echo "Creating the skillset..."

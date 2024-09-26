@@ -3,7 +3,7 @@
     "description" : "Documents for search.",  
     "type" : "azureblob",
     "credentials" :
-    { "connectionString" : "DefaultEndpointsProtocol=https;AccountName=flastorage102;AccountKey=rs9ni3XfiKEQ+EAtDOpcXlvjlKsST87ZOXUTj6eskFlozEFhEFMP+xHzvptozHjZ1Gnp4G9PCgLd+AStukyDJQ==;EndpointSuffix=core.windows.net"
+    { "connectionString" : "YOUR_CONNECTION_STRING"
     },  
     "container" : { "name" : "margies" }
 } 
