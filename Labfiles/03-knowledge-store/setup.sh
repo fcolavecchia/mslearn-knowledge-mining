@@ -2,7 +2,7 @@
 
 # Set values for your subscription and resource group
 subscription_id="9f15d358-fb6e-4797-90dd-8e4550768d01"
-resource_group="Ingeniería_AI"
+resource_group="Fla-Search"
 location="eastus"
 
 # Get random numbers to create unique resource names
